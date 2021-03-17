@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "codeChallenge",
+    "slug": "codeChallenge",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./screens/imgs/circle-cropped.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1357BE"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "findit.com"
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "findit.com",
+      "useNextNotificationsApi": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
